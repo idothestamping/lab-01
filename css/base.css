@@ -1,7 +1,21 @@
-* {
+div{
   float: left;
 }
 
 body {
   background: #fff;
+}
+/* Desktop view */
+@media screen and (min-width: 768px){
+  body {
+    background-color: lightskyblue ;
+    width: 960px;
+  }
+}
+/* Mobile view */
+@media screen and (min-width: 480px) and (max-width: 767px){
+  body {
+    background-color:teal;
+    width: 480px;
+  } 
 }
